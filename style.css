@@ -1,0 +1,60 @@
+body{
+    font-family:'Poppins', sans-serif ;
+}
+
+/* nav  */
+
+a:link, a:visited {
+    background-color:black;
+    color: white;
+    /* border: 2px solid green; */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    /* background-color: green; */
+    color: #ff0000;
+  }
+  .home{
+    background-image: url(/img/bgimage.jpg);
+    height:550px;
+  }
+  h1{
+    font-weight: 800;
+  }
+
+  .MAIN-CARD{
+    justify-content: space-around;
+    padding-top: 20px ;
+  }
+  .card1{
+    background-image: url(/img/cart1.jpg);
+    height: 350PX;
+    width: 350PX;
+
+  }
+  .card2{
+    background-image: url(/img/cart2.jpg);
+    height: 350PX;
+    width: 350PX;
+  }
+  .card3{
+    background-image: url(/img/cart3.jpg);
+    height: 350PX;
+    width: 350PX;
+  }
+  .content{
+    
+    width: 350px;
+  }
+
+
+  
+  /* footer */
+.pic{
+    height: 180px;
+    width: 180px;
+}

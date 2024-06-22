@@ -1,0 +1,107 @@
+body{
+    background-color: aqua;
+  }
+
+  /* nav-bar */
+  .nav-m{
+  
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+  }
+  li{
+    margin-right: 50px;
+  }
+
+  /* Home */
+  .home{
+   padding:10px;
+   display: flex;
+   justify-content: space-between;
+  /* flex-direction: ; */
+  
+ 
+  }
+   h1{
+    color: rgb(19, 19, 153);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  .pra{
+    padding-left: 250px ;
+    padding-right: 250px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    
+  }
+   /* About */
+   .about{
+    align-items: center;
+    text-align: center;
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+
+   }
+   
+   /* Service */
+
+   .cart-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+   }
+
+   .cart{
+    height: 250px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    
+
+   }
+   /* Contact */
+   
+   .Contact{
+    align-items: center;
+    text-align: center;
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+    
+   }
+
+   .fooder-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+   }
+
+   .fooder{
+    height: 250px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+   
+   }
+   .sub-page{
+    list-style-type: none;
+    justify-content: space-between;
+   }
+
+ .cart-1{
+  height: 350px;
+  width: 350px; ;
+ }
